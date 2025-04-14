@@ -79,21 +79,4 @@ C --> D[Model Selection]
 D --> E[Training]
 E --> F[Evaluation]
 F --> G[Prediction]
----
 
-## ⚙️ How to Run Locally
-
-```bash
-# Step 1: Clone the Repository
-git clone https://github.com/your-username/bone-fracture-classifier.git
-cd bone-fracture-classifier
-
-# Step 2: Create Virtual Environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Step 3: Install Dependencies
-pip install -r requirements.txt
-
-# Step 4: Run Inference
-python predict.py --image path/to/xray.jpg
