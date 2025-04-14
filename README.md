@@ -71,7 +71,7 @@ If this project helped you or you found it interesting, feel free to ⭐ star th
 ---
 
 ## 🧠 Model Workflow
-mermaid
+```mermaid
 graph TD
 A[Raw Data] --> B[Data Cleaning]
 B --> C[Feature Engineering]
